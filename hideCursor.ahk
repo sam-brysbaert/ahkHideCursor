@@ -21,7 +21,6 @@ SetCursorBlank()
 	,32648IDC_NO,32649IDC_HAND,32650IDC_APPSTARTING,32651IDC_HELP
 
 	VarSetCapacity( AndMask, 32*4, 0xFF ), VarSetCapacity( XorMask, 32*4, 0 )
-	BlankCursor = 1 ; flag for later
 	
 	Loop, Parse, SystemCursors, `,
 	{
